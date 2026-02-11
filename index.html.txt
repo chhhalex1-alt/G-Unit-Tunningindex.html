@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G-Unit =</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg, black, #1a1a1a);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+header h1 {
+    color: red;
+    letter-spacing: 2px;
+}
+
+nav {
+    background: #141414;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') center/cover;
+}
+
+.hero h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+
+.catalog-item {
+    display: flex;
+    justify-content: space-between;
+    background: #1a1a1a;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.catalog-item:hover {
+    background: #222;
+    transform: scale(1.02);
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 50px;
+    border-top: 2px solid red;
+}
+
+button {
+    padding: 12px 25px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: darkred;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Velocity Customs</h1>
+    <p>Performance • Racing • Tuning</p>
+</header>
+
+<nav>
+    <a href="#">Acasă</a>
+    <a href="#catalog">Catalog</a>
+    <a href="#preturi">Prețuri</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Putere. Stil. Dominare.</h2>
+    <p>Cel mai agresiv service din Los Santos</p>
+    <button>Programează-te</button>
+</div>
+
+<section class="section" id="catalog">
+    <h2>Catalog Servicii</h2>
+
+    <div class="catalog-item">
+        <span>Reparație completă vehicul</span>
+        <span class="price">$6,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Tuning Stage 1</span>
+        <span class="price">$5,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Tuning Stage 2</span>
+        <span class="price">$5,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Tuning Stage 3</span>
+        <span class="price">$5,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Colantare completă</span>
+        <span class="price">$5,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Schimbare culoare custom</span>
+        <span class="price">$5,000</span>
+    </div>
+
+</section>
+
+<section class="section" id="preturi">
+    <h2>Prețuri Detaliate</h2>
+
+    <div class="catalog-item">
+        <span>Diagnoză motor</span>
+        <span class="price">$2,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Montaj Turbo</span>
+        <span class="price">$2,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Suspensie racing</span>
+        <span class="price">$9,000</span>
+    </div>
+
+    <div class="catalog-item">
+        <span>Evacuare sport</span>
+        <span class="price">$6,500</span>
+    </div>
+
+</section>
+
+<section class="section">
+    <h2>Galerie Racing</h2>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d" alt="Car 1">
+        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c" alt="Car 2">
+        <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8" alt="Car 3">
+        <img src="https://images.unsplash.com/photo-1485291571150-772bcfc10da5" alt="Car 4">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" alt="Car 5">
+        <img src="https://images.unsplash.com/photo-1542362567-b07e54358753" alt="Car 6">
+    </div>
+          <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif">
+          <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif">
+          <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif">
+          <img src="https://media.giphy.com/media/26BRrSvJUa0crqw4E/giphy.gif">
+          <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif">
+          <img src="https://media.giphy.com/media/3o6Zt481isNVuQI1l6/giphy.gif">
+
+     
+</section>
+
+
+<footer>
+    © 2026 Velocity Customs | GTA V Roleplay
+</footer>
+
+</body>
+</html>
